@@ -1,0 +1,63 @@
+baseURL: http://www.bridgehackathon.org
+languageCode: en-gb
+title: Bridge Hackathon
+theme: "PaperMod"
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 10
+    - name: Code
+      url: https://github.com/online-bridge-hackathon
+      weight: 20
+    - name: Docs
+      url: https://drive.google.com/drive/u/0/folders/15jo8bfetwpoMyIcYX_8vWiVYM6VQIieh
+      weight: 30
+    - name: Grants
+      url: https://drive.google.com/file/d/10wy7PrsuRmCJMvIJGAhoMBUoV3a8MGft/view?usp=share_link
+      weight: 40
+    - name: Funding
+      url: https://www.kickstarter.com/projects/bridgehackathon/bridge-hackathon
+      weight: 50
+    - name: About
+      url: /about
+      weight: 70
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Bridge Hackathon website"
+  author: Kiat Huang
+  # author: ["Me", "You"] # multiple authors
+  facebook: "https://www.facebook.com/BridgeHackathon"
+  email: "bridge.hackathon.association@gmail.com"
+  socialIcons:
+      - name: discord
+        url: "https://discord.gg/tEHhwjMH"
+      - name: email
+        url: "mailto:bridge.hackathon.association@gmail.com"
+      - name: facebook
+        url: "https://www.facebook.com/BridgeHackathon"
+      - name: Rss
+        url: "index.xml"
+
+  homeInfoParams:
+    Title: ""
+    Content: >
+      **Bridge Hackathon** is a small, non-profit organisation with the goal of improving the mindsport of Bridge via software developer collaborations. During Covid lockdown we organised two online Bridge Hackathons bringing a diverse group of people together to create and work on new software projects related to bridge.
