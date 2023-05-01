@@ -61,3 +61,8 @@ params:
     Title: ""
     Content: >
       **Bridge Hackathon** is a small, non-profit organisation with the goal of improving the mindsport of Bridge via software developer collaborations. During Covid lockdown we organised two online Bridge Hackathons bringing a diverse group of people together to create and work on new software projects related to bridge.
+
+  editPost:
+    URL: "https://github.com/online-bridge-hackathon/www.bridgehackathon.org/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
